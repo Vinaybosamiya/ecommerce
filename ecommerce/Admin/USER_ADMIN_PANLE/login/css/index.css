@@ -1,0 +1,79 @@
+body{
+    background-color: rgb(255, 216, 18);
+}
+#h1{
+
+  color: rgb(0, 0, 0);
+  font-size: 61px;
+  font-weight: bold;
+}
+
+svg {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  top: 50px;
+  right: 65px;
+  fill: rgba(132, 134, 136, 1);
+}
+
+#username, #password, #sbm{
+margin-top: 20px;
+}
+#password,#username{
+padding-right: 30px;
+padding-left: 50px;
+}
+.password-container input {
+  padding-right: 30px; /* space for the icon */
+}
+
+.password-container input {
+  padding-left: 50px;
+}
+
+.password-container span {
+  padding-top: 30px; /* space for the icon */
+}
+.toggle-eye {
+  position: relative;
+  left: 541px;
+  top: 40px;
+  cursor: pointer;
+  user-select: none;
+}
+.toggle-eye1 {
+  position: relative;
+  left: 480px;
+  top: 40px;
+  cursor: pointer;
+  user-select: none;
+}
+/* chat gpt */
+/* 
+.toggle-eye {
+  position: absolute;
+  top: 51.4%;
+  right: 550px;
+  cursor: pointer;
+  user-select: none;
+}
+.toggle-eye1 {
+  position: absolute;
+  top: 62.2%;
+  right: 550px;
+  cursor: pointer;
+  user-select: none;
+} */
+
+
+.input-box {
+  padding-left: 36px; /* Adds space before the placeholder text */
+  height: 40px;
+  font-size: 16px;
+}
+
+.up{
+  font-weight: bold;
+}
+
